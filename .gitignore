@@ -1,6 +1,9 @@
 # IntelliJ Project Settings Directory
 .idea
 
+#IntelliJ Module Files
+*.iml
+
 # Compiled class file
 *.class
 
