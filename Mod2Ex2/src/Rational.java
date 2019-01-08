@@ -1,5 +1,7 @@
 public interface Rational {
     public float getQuotient(); //computes the quotient
-    public Rational add(RationalNumber other); //this + other
-    public Rational divide(RationalNumber other); //this / other
+    public int getNumerator();
+    public int getDenominator();
+    public Rational add(Rational other); //this + other
+    public Rational divide(Rational other); //this / other
 }
